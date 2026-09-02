@@ -60,7 +60,7 @@
       gap: 1.5rem;
     }
 
-    .card {
+    /* .card {
       background: #fff;
       border-radius: var(--radius);
       overflow: hidden;
@@ -79,16 +79,43 @@
       height: 260px;
       object-fit: cover;
       display: block;
+    } */
+
+    .card {
+      background: transparent;
+      border-radius: var(--radius);
+      overflow: hidden;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      aspect-ratio: 1 / 1; /* Keeps every image a perfect square */
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
 
-    .card-info {
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+    }
+
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Centers and crops images uniformly */
+      display: block;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover img {
+      transform: scale(1.03); /* Subtle, elegant zoom on hover */
+    }
+
+    /* .card-info {
       padding: 0.85rem 1rem;
       display: flex;
       justify-content: space-between;
       font-size: 0.9rem;
     }
 
-    .card-info span { color: var(--accent); }
+    .card-info span { color: var(--accent); } */
 
     /* Modal / Lightbox */
     dialog {
@@ -139,14 +166,14 @@
   <header>
     <h1>Artwork by Liz</h1>
     <div class="toolbar">
-      <input type="text" id="search" placeholder="Search title..." />
-      <select id="filterCategory">
+      <input type="text" id="search" placeholder="Search..." />
+      <!-- <select id="filterCategory">
         <option value="all">All Categories</option>
       </select>
       <select id="sortOrder">
         <option value="title-asc">Title (A–Z)</option>
         <option value="title-desc">Title (Z–A)</option>
-      </select>
+      </select> -->
     </div>
   </header>
 
@@ -206,10 +233,10 @@
       gallery.innerHTML = filtered.map(item => `
         <article class="card" data-src="${item.src}" data-title="${item.title}">
           <img src="${item.src}" alt="${item.title}" loading="lazy" />
-          <div class="card-info">
-            <strong>${item.title}</strong>
-            <span>${item.category}</span>
-          </div>
+          // <div class="card-info">
+          //   <strong>${item.title}</strong>
+          //   <span>${item.category}</span>
+          // </div>
         </article>
       `).join('');
 
