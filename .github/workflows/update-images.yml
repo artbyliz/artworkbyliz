@@ -1,0 +1,45 @@
+name: Generate Image List
+
+on:
+  push:
+    paths:
+      - 'images/**'
+  workflow_dispatch: # Allows manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate images.json
+        run: |
+          node -e "
+            const fs = require('fs');
+            const path = 'images';
+            if (!fs.existsSync(path)) fs.mkdirSync(path);
+            const files = fs.readdirSync(path).filter(f => /\.(jpe?g|png|webp)$/i.test(f));
+            const list = files.map(f => {
+              const name = f.replace(/\.[^/.]+$/, '');
+              const [title, category, year] = name.split('_');
+              return { 
+                src: 'images/' + f, 
+                title: (title || name).trim(), 
+                category: (category || 'General').trim(), 
+                year: (year || '').trim() 
+              };
+            });
+            fs.writeFileSync('images.json', JSON.stringify(list, null, 2));
+          "
+
+      - name: Commit manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add images.json
+          git commit -m "Auto-update images.json [skip ci]" || exit 0
+          git push
