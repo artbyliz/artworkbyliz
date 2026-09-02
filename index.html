@@ -1,106 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art Portfolio</title>
-    <style>
-        :root {
-            --bg-color: #ffffff;
-            --text-color: #1a1a1a;
-            --accent-color: #707070;
-            --spacing: 2rem;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artwork by Liz</title>
+  <style>
+    :root {
+      --bg: #fbfbfb;
+      --text: #1a1a1a;
+      --accent: #555;
+      --radius: 8px;
+    }
 
-        body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            line-height: 1.6;
-        }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      padding: 2rem 1.5rem;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
 
-        header {
-            padding: 4rem var(--spacing);
-            text-align: center;
-        }
+    header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
 
-        h1 {
-            font-weight: 300;
-            letter-spacing: 0.2rem;
-            text-transform: uppercase;
-            font-size: 1.5rem;
-            margin-bottom: 0.5rem;
-        }
+    header h1 {
+      font-weight: 300;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+    }
 
-        .subtitle {
-            font-size: 0.9rem;
-            color: var(--accent-color);
-            font-style: italic;
-        }
+    /* Controls: Search, Sort, Filter */
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
 
-        /* The Gallery Grid */
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1.5rem;
-            padding: 0 var(--spacing) 4rem var(--spacing);
-            max-width: 1400px;
-            margin: 0 auto;
-        }
+    .toolbar input, .toolbar select {
+      padding: 0.5rem 0.85rem;
+      border: 1px solid #ccc;
+      border-radius: var(--radius);
+      background: #fff;
+      font-size: 0.95rem;
+    }
 
-        .art-card {
-            overflow: hidden;
-            background: #f9f9f9;
-            transition: opacity 0.3s ease;
-        }
+    /* Gallery Grid */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
 
-        .art-card img {
-            width: 100%;
-            height: auto;
-            display: block;
-            filter: grayscale(20%);
-            transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), filter 0.3s ease;
-        }
+    .card {
+      background: #fff;
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
 
-        .art-card:hover img {
-            transform: scale(1.03);
-            filter: grayscale(0%);
-        }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    }
 
-        footer {
-            text-align: center;
-            padding: 2rem;
-            font-size: 0.8rem;
-            color: var(--accent-color);
-            border-top: 1px solid #eee;
-        }
+    .card img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      display: block;
+    }
 
-        @media (max-width: 600px) {
-            header { padding: 2rem 1rem; }
-            .gallery { padding: 0 1rem 2rem 1rem; }
-        }
-    </style>
+    .card-info {
+      padding: 0.85rem 1rem;
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+    }
+
+    .card-info span { color: var(--accent); }
+
+    /* Modal / Lightbox */
+    dialog {
+      margin: auto;
+      border: none;
+      border-radius: var(--radius);
+      padding: 1rem;
+      max-width: 90vw;
+      max-height: 90vh;
+      background: #fff;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    }
+
+    dialog::backdrop {
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(4px);
+    }
+
+    dialog img {
+      max-width: 85vw;
+      max-height: 75vh;
+      object-fit: contain;
+      display: block;
+      margin: 0 auto;
+      border-radius: 4px;
+    }
+
+    .dialog-caption {
+      text-align: center;
+      margin-top: 0.75rem;
+      font-size: 1rem;
+    }
+
+    .close-btn {
+      position: absolute;
+      top: 0.75rem;
+      right: 0.75rem;
+      background: none;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+      line-height: 1;
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>Portfolio</h1>
-        <p class="subtitle">Selected Works & Explorations</p>
-    </header>
+  <header>
+    <h1>Artwork by Liz</h1>
+    <div class="toolbar">
+      <input type="text" id="search" placeholder="Search title..." />
+      <select id="filterCategory">
+        <option value="all">All Categories</option>
+      </select>
+      <select id="sortOrder">
+        <option value="title-asc">Title (A–Z)</option>
+        <option value="title-desc">Title (Z–A)</option>
+      </select>
+    </div>
+  </header>
 
-    <main class="gallery">
-        <div class="art-card">
-            <img src="622833583_10240795182395900_2668240820024030370_n.jpg" alt="Artwork Description">
-        </div>
-        <div class="art-card">
-            <img src="748452545_10243379342958299_6052720393371810948_n.jpg" alt="Artwork Description">
-        </div>
-    </main>
+  <main class="gallery" id="gallery"></main>
 
-    <footer>
-        <p>&copy; 2026 Art Showcase. Mom <3</p>
-    </footer>
+  <dialog id="lightbox">
+    <button class="close-btn" id="closeLightbox" aria-label="Close">&times;</button>
+    <img id="lightboxImg" src="" alt="" />
+    <div class="dialog-caption" id="lightboxCaption"></div>
+  </dialog>
 
+  <script>
+    let artworks = [];
+    const gallery = document.getElementById('gallery');
+    const searchInput = document.getElementById('search');
+    const filterCat = document.getElementById('filterCategory');
+    const sortSelect = document.getElementById('sortOrder');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxCaption = document.getElementById('lightboxCaption');
+
+    fetch('images.json')
+      .then(res => res.json())
+      .then(data => {
+        artworks = data;
+        populateCategories(artworks);
+        render();
+    });
+      
+    function populateCategories(items) {
+      const categories = [...new Set(items.map(i => i.category).filter(Boolean))];
+      categories.forEach(cat => {
+        const opt = document.createElement('option');
+        opt.value = cat;
+        opt.textContent = cat;
+        filterCat.appendChild(opt);
+      });
+    }
+
+    function render() {
+      const query = searchInput.value.toLowerCase();
+      const cat = filterCat.value;
+      const sort = sortSelect.value;
+
+      let filtered = artworks.filter(item => {
+        const matchesQuery = item.title.toLowerCase().includes(query);
+        const matchesCat = cat === 'all' || item.category === cat;
+        return matchesQuery && matchesCat;
+      });
+
+      filtered.sort((a, b) => {
+        if (sort === 'title-asc') return a.title.localeCompare(b.title);
+        if (sort === 'title-desc') return b.title.localeCompare(a.title);
+        return 0;
+      });
+
+      gallery.innerHTML = filtered.map(item => `
+        <article class="card" data-src="${item.src}" data-title="${item.title}">
+          <img src="${item.src}" alt="${item.title}" loading="lazy" />
+          <div class="card-info">
+            <strong>${item.title}</strong>
+            <span>${item.category}</span>
+          </div>
+        </article>
+      `).join('');
+
+      document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('click', () => {
+          lightboxImg.src = card.dataset.src;
+          lightboxCaption.textContent = card.dataset.title;
+          lightbox.showModal();
+        });
+      });
+    }
+
+    searchInput.addEventListener('input', render);
+    filterCat.addEventListener('change', render);
+    sortSelect.addEventListener('change', render);
+
+    document.getElementById('closeLightbox').addEventListener('click', () => lightbox.close());
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) lightbox.close();
+    });
+  </script>
 </body>
 </html>
