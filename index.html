@@ -189,8 +189,8 @@
     let artworks = [];
     const gallery = document.getElementById('gallery');
     const searchInput = document.getElementById('search');
-    const filterCat = document.getElementById('filterCategory');
-    const sortSelect = document.getElementById('sortOrder');
+    // const filterCat = document.getElementById('filterCategory');
+    // const sortSelect = document.getElementById('sortOrder');
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = document.getElementById('lightboxImg');
     const lightboxCaption = document.getElementById('lightboxCaption');
@@ -209,14 +209,14 @@
         const opt = document.createElement('option');
         opt.value = cat;
         opt.textContent = cat;
-        filterCat.appendChild(opt);
+        // filterCat.appendChild(opt);
       });
     }
 
     function render() {
       const query = searchInput.value.toLowerCase();
-      const cat = filterCat.value;
-      const sort = sortSelect.value;
+      // const cat = filterCat.value;
+      // const sort = sortSelect.value;
 
       let filtered = artworks.filter(item => {
         const matchesQuery = item.title.toLowerCase().includes(query);
@@ -250,8 +250,8 @@
     }
 
     searchInput.addEventListener('input', render);
-    filterCat.addEventListener('change', render);
-    sortSelect.addEventListener('change', render);
+    // filterCat.addEventListener('change', render);
+    // sortSelect.addEventListener('change', render);
 
     document.getElementById('closeLightbox').addEventListener('click', () => lightbox.close());
     lightbox.addEventListener('click', (e) => {
