@@ -18,50 +18,10 @@
     ]
   },
   {
-    "src": "images/01-woman-profile-red-dress-vintage-cat=portrait-cat=woman-style=figurative-color=red-id=a001.jpg.jpg",
-    "filename": "01-woman-profile-red-dress-vintage-cat=portrait-cat=woman-style=figurative-color=red-id=a001.jpg.jpg",
-    "title": "Woman profile red dress vintage",
-    "id": "a001.jpg",
-    "view": "",
-    "cat": [
-      "portrait",
-      "woman"
-    ],
-    "style": [
-      "figurative"
-    ],
-    "theme": [],
-    "color": [
-      "red"
-    ]
-  },
-  {
     "src": "images/02-colorful-flowers-floral-garden-cat=flower-cat=floral-style=abstract-theme=nature-color=yellow-color=pink-color=blue-id=a002.jpg",
     "filename": "02-colorful-flowers-floral-garden-cat=flower-cat=floral-style=abstract-theme=nature-color=yellow-color=pink-color=blue-id=a002.jpg",
     "title": "Colorful flowers floral garden",
     "id": "a002",
-    "view": "",
-    "cat": [
-      "flower",
-      "floral"
-    ],
-    "style": [
-      "abstract"
-    ],
-    "theme": [
-      "nature"
-    ],
-    "color": [
-      "yellow",
-      "pink",
-      "blue"
-    ]
-  },
-  {
-    "src": "images/02-colorful-flowers-floral-garden-cat=flower-cat=floral-style=abstract-theme=nature-color=yellow-color=pink-color=blue-id=a002.jpg.jpg",
-    "filename": "02-colorful-flowers-floral-garden-cat=flower-cat=floral-style=abstract-theme=nature-color=yellow-color=pink-color=blue-id=a002.jpg.jpg",
-    "title": "Colorful flowers floral garden",
-    "id": "a002.jpg",
     "view": "",
     "cat": [
       "flower",
@@ -100,26 +60,6 @@
     ]
   },
   {
-    "src": "images/03-white-house-porch-cat=house-cat=architecture-style=landscape-theme=southern-color=white-id=a003.jpg.jpg",
-    "filename": "03-white-house-porch-cat=house-cat=architecture-style=landscape-theme=southern-color=white-id=a003.jpg.jpg",
-    "title": "White house porch",
-    "id": "a003.jpg",
-    "view": "",
-    "cat": [
-      "house",
-      "architecture"
-    ],
-    "style": [
-      "landscape"
-    ],
-    "theme": [
-      "southern"
-    ],
-    "color": [
-      "white"
-    ]
-  },
-  {
     "src": "images/04-white-bird-pink-flowers-blue-background-cat=bird-cat=flower-style=figurative-theme=nature-color=white-color=pink-color=blue-id=a004.jpg",
     "filename": "04-white-bird-pink-flowers-blue-background-cat=bird-cat=flower-style=figurative-theme=nature-color=white-color=pink-color=blue-id=a004.jpg",
     "title": "White bird pink flowers blue background",
@@ -142,52 +82,10 @@
     ]
   },
   {
-    "src": "images/04-white-bird-pink-flowers-blue-background-cat=bird-cat=flower-style=figurative-theme=nature-color=white-color=pink-color=blue-id=a004.jpg.jpg",
-    "filename": "04-white-bird-pink-flowers-blue-background-cat=bird-cat=flower-style=figurative-theme=nature-color=white-color=pink-color=blue-id=a004.jpg.jpg",
-    "title": "White bird pink flowers blue background",
-    "id": "a004.jpg",
-    "view": "",
-    "cat": [
-      "bird",
-      "flower"
-    ],
-    "style": [
-      "figurative"
-    ],
-    "theme": [
-      "nature"
-    ],
-    "color": [
-      "white",
-      "pink",
-      "blue"
-    ]
-  },
-  {
     "src": "images/05-colorful-flower-bird-cracked-texture-cat=flower-cat=bird-style=abstract-theme=nature-color=multicolor-id=a005.jpg",
     "filename": "05-colorful-flower-bird-cracked-texture-cat=flower-cat=bird-style=abstract-theme=nature-color=multicolor-id=a005.jpg",
     "title": "Colorful flower bird cracked texture",
     "id": "a005",
-    "view": "",
-    "cat": [
-      "flower",
-      "bird"
-    ],
-    "style": [
-      "abstract"
-    ],
-    "theme": [
-      "nature"
-    ],
-    "color": [
-      "multicolor"
-    ]
-  },
-  {
-    "src": "images/05-colorful-flower-bird-cracked-texture-cat=flower-cat=bird-style=abstract-theme=nature-color=multicolor-id=a005.jpg.jpg",
-    "filename": "05-colorful-flower-bird-cracked-texture-cat=flower-cat=bird-style=abstract-theme=nature-color=multicolor-id=a005.jpg.jpg",
-    "title": "Colorful flower bird cracked texture",
-    "id": "a005.jpg",
     "view": "",
     "cat": [
       "flower",
@@ -241,51 +139,10 @@
     ]
   },
   {
-    "src": "images/07-yellow-trees-mountains-landscape-cat=landscape-cat=tree-style=landscape-theme=nature-color=yellow-color=green-id=a007.jpg.jpg",
-    "filename": "07-yellow-trees-mountains-landscape-cat=landscape-cat=tree-style=landscape-theme=nature-color=yellow-color=green-id=a007.jpg.jpg",
-    "title": "Yellow trees mountains landscape",
-    "id": "a007.jpg",
-    "view": "",
-    "cat": [
-      "landscape",
-      "tree"
-    ],
-    "style": [
-      "landscape"
-    ],
-    "theme": [
-      "nature"
-    ],
-    "color": [
-      "yellow",
-      "green"
-    ]
-  },
-  {
     "src": "images/08-red-building-towers-architectural-sketch-cat=architecture-cat=building-style=sketch-theme=urban-color=red-id=a008.jpg",
     "filename": "08-red-building-towers-architectural-sketch-cat=architecture-cat=building-style=sketch-theme=urban-color=red-id=a008.jpg",
     "title": "Red building towers architectural sketch",
     "id": "a008",
-    "view": "",
-    "cat": [
-      "architecture",
-      "building"
-    ],
-    "style": [
-      "sketch"
-    ],
-    "theme": [
-      "urban"
-    ],
-    "color": [
-      "red"
-    ]
-  },
-  {
-    "src": "images/08-red-building-towers-architectural-sketch-cat=architecture-cat=building-style=sketch-theme=urban-color=red-id=a008.jpg.jpg",
-    "filename": "08-red-building-towers-architectural-sketch-cat=architecture-cat=building-style=sketch-theme=urban-color=red-id=a008.jpg.jpg",
-    "title": "Red building towers architectural sketch",
-    "id": "a008.jpg",
     "view": "",
     "cat": [
       "architecture",
@@ -325,26 +182,6 @@
     "filename": "10-red-bird-window-still-life-cat=bird-cat=still-life-style=figurative-theme=nature-color=red-id=a010.jpg",
     "title": "Red bird window still life life",
     "id": "a010",
-    "view": "",
-    "cat": [
-      "bird",
-      "still"
-    ],
-    "style": [
-      "figurative"
-    ],
-    "theme": [
-      "nature"
-    ],
-    "color": [
-      "red"
-    ]
-  },
-  {
-    "src": "images/10-red-bird-window-still-life-cat=bird-cat=still-life-style=figurative-theme=nature-color=red-id=a010.jpg.jpg",
-    "filename": "10-red-bird-window-still-life-cat=bird-cat=still-life-style=figurative-theme=nature-color=red-id=a010.jpg.jpg",
-    "title": "Red bird window still life life",
-    "id": "a010.jpg",
     "view": "",
     "cat": [
       "bird",
@@ -485,27 +322,6 @@
     ]
   },
   {
-    "src": "images/16-gas-pumps-mountains-black-white-cat=architecture-cat=landscape-style=figurative-theme=urban-color=black-color=white-id=a016.jpg.jpg",
-    "filename": "16-gas-pumps-mountains-black-white-cat=architecture-cat=landscape-style=figurative-theme=urban-color=black-color=white-id=a016.jpg.jpg",
-    "title": "Gas pumps mountains black white",
-    "id": "a016.jpg",
-    "view": "",
-    "cat": [
-      "architecture",
-      "landscape"
-    ],
-    "style": [
-      "figurative"
-    ],
-    "theme": [
-      "urban"
-    ],
-    "color": [
-      "black",
-      "white"
-    ]
-  },
-  {
     "src": "images/17-green-crab-ocean-cat=crab-cat=animal-style=figurative-theme=coastal-color=green-color=blue-id=a017.jpg",
     "filename": "17-green-crab-ocean-cat=crab-cat=animal-style=figurative-theme=coastal-color=green-color=blue-id=a017.jpg",
     "title": "Green crab ocean",
@@ -552,27 +368,6 @@
     "filename": "19-dragonfly-purple-blue-cat=dragonfly-cat=insect-style=abstract-theme=nature-color=purple-color=blue-id=a019.jpg",
     "title": "Dragonfly purple blue",
     "id": "a019",
-    "view": "",
-    "cat": [
-      "dragonfly",
-      "insect"
-    ],
-    "style": [
-      "abstract"
-    ],
-    "theme": [
-      "nature"
-    ],
-    "color": [
-      "purple",
-      "blue"
-    ]
-  },
-  {
-    "src": "images/19-dragonfly-purple-blue-cat=dragonfly-cat=insect-style=abstract-theme=nature-color=purple-color=blue-id=a019.jpg.jpg",
-    "filename": "19-dragonfly-purple-blue-cat=dragonfly-cat=insect-style=abstract-theme=nature-color=purple-color=blue-id=a019.jpg.jpg",
-    "title": "Dragonfly purple blue",
-    "id": "a019.jpg",
     "view": "",
     "cat": [
       "dragonfly",
@@ -653,28 +448,6 @@
     ]
   },
   {
-    "src": "images/22-flamingo-starfish-shells-turquoise-gray-cat=flamingo-cat=animal-cat=tropical-style=figurative-theme=coastal-color=turquoise-color=gray-id=a022.jpg.jpg",
-    "filename": "22-flamingo-starfish-shells-turquoise-gray-cat=flamingo-cat=animal-cat=tropical-style=figurative-theme=coastal-color=turquoise-color=gray-id=a022.jpg.jpg",
-    "title": "Flamingo starfish shells turquoise gray",
-    "id": "a022.jpg",
-    "view": "",
-    "cat": [
-      "flamingo",
-      "animal",
-      "tropical"
-    ],
-    "style": [
-      "figurative"
-    ],
-    "theme": [
-      "coastal"
-    ],
-    "color": [
-      "turquoise",
-      "gray"
-    ]
-  },
-  {
     "src": "images/23-woman-white-dress-interior-cat=woman-cat=figure-style=figurative-theme=interior-color=white-color=blue-id=a023.jpg",
     "filename": "23-woman-white-dress-interior-cat=woman-cat=figure-style=figurative-theme=interior-color=white-color=blue-id=a023.jpg",
     "title": "Woman white dress interior",
@@ -696,51 +469,10 @@
     ]
   },
   {
-    "src": "images/23-woman-white-dress-interior-cat=woman-cat=figure-style=figurative-theme=interior-color=white-color=blue-id=a023.jpg.jpg",
-    "filename": "23-woman-white-dress-interior-cat=woman-cat=figure-style=figurative-theme=interior-color=white-color=blue-id=a023.jpg.jpg",
-    "title": "Woman white dress interior",
-    "id": "a023.jpg",
-    "view": "",
-    "cat": [
-      "woman",
-      "figure"
-    ],
-    "style": [
-      "figurative"
-    ],
-    "theme": [
-      "interior"
-    ],
-    "color": [
-      "white",
-      "blue"
-    ]
-  },
-  {
     "src": "images/24-colorful-hillside-village-cat=landscape-cat=architecture-style=landscape-theme=village-color=multicolor-id=a024.jpg",
     "filename": "24-colorful-hillside-village-cat=landscape-cat=architecture-style=landscape-theme=village-color=multicolor-id=a024.jpg",
     "title": "Colorful hillside village",
     "id": "a024",
-    "view": "",
-    "cat": [
-      "landscape",
-      "architecture"
-    ],
-    "style": [
-      "landscape"
-    ],
-    "theme": [
-      "village"
-    ],
-    "color": [
-      "multicolor"
-    ]
-  },
-  {
-    "src": "images/24-colorful-hillside-village-cat=landscape-cat=architecture-style=landscape-theme=village-color=multicolor-id=a024.jpg.jpg",
-    "filename": "24-colorful-hillside-village-cat=landscape-cat=architecture-style=landscape-theme=village-color=multicolor-id=a024.jpg.jpg",
-    "title": "Colorful hillside village",
-    "id": "a024.jpg",
     "view": "",
     "cat": [
       "landscape",
@@ -1058,13 +790,13 @@
     ]
   },
   {
-    "src": "images/41-seated-cat-window-cat=cat-cat=animal-style=figurative-theme=interior-color=brown-id=a041.jpg",
-    "filename": "41-seated-cat-window-cat=cat-cat=animal-style=figurative-theme=interior-color=brown-id=a041.jpg",
-    "title": "Seated cat window",
+    "src": "images/41-seated-shell-window-cat=nature-cat=animal-style=figurative-theme=interior-color=brown-id=a041.jpg",
+    "filename": "41-seated-shell-window-cat=nature-cat=animal-style=figurative-theme=interior-color=brown-id=a041.jpg",
+    "title": "Seated shell window",
     "id": "a041",
     "view": "",
     "cat": [
-      "cat",
+      "nature",
       "animal"
     ],
     "style": [
@@ -1076,61 +808,6 @@
     "color": [
       "brown"
     ]
-  },
-  {
-    "src": "images/410_1788397264042.jpg",
-    "filename": "410_1788397264042.jpg",
-    "title": "1788397264042",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/412_1788397112178.jpg",
-    "filename": "412_1788397112178.jpg",
-    "title": "1788397112178",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/415_1788397266584.jpg",
-    "filename": "415_1788397266584.jpg",
-    "title": "1788397266584",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/419_1788397269892.jpg",
-    "filename": "419_1788397269892.jpg",
-    "title": "1788397269892",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/41_1788397100928.jpg",
-    "filename": "41_1788397100928.jpg",
-    "title": "1788397100928",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
   },
   {
     "src": "images/42-abstract-figure-blue-red-cat=figure-style=abstract-color=blue-color=red-id=a042.jpg",
@@ -1151,64 +828,9 @@
     ]
   },
   {
-    "src": "images/421_1788397275360.jpg",
-    "filename": "421_1788397275360.jpg",
-    "title": "1788397275360",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/422_1788397117560.jpg",
-    "filename": "422_1788397117560.jpg",
-    "title": "1788397117560",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/423_1788397276685.jpg",
-    "filename": "423_1788397276685.jpg",
-    "title": "1788397276685",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/426_1788397120578.jpg",
-    "filename": "426_1788397120578.jpg",
-    "title": "1788397120578",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/42_1788397103125.jpg",
-    "filename": "42_1788397103125.jpg",
-    "title": "1788397103125",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/43-man-portrait-purple-cat=man-cat=portrait-style=figurative-color=purple-color=green-id=a043.jpg",
-    "filename": "43-man-portrait-purple-cat=man-cat=portrait-style=figurative-color=purple-color=green-id=a043.jpg",
-    "title": "Man portrait purple",
+    "src": "images/43-person-portrait-purple-cat=man-cat=portrait-style=figurative-color=purple-color=pink-id=a043.jpg",
+    "filename": "43-person-portrait-purple-cat=man-cat=portrait-style=figurative-color=purple-color=pink-id=a043.jpg",
+    "title": "Person portrait purple",
     "id": "a043",
     "view": "",
     "cat": [
@@ -1221,13 +843,13 @@
     "theme": [],
     "color": [
       "purple",
-      "green"
+      "pink"
     ]
   },
   {
-    "src": "images/44-colorful-landscape-green-blue-cat=landscape-style=abstract-theme=nature-color=green-color=blue-id=a044.jpg",
-    "filename": "44-colorful-landscape-green-blue-cat=landscape-style=abstract-theme=nature-color=green-color=blue-id=a044.jpg",
-    "title": "Colorful landscape green blue",
+    "src": "images/44-colorful-crab-landscape-green-blue-cat=landscape-style=abstract-theme=nature-color=green-color=blue-id=a044.jpg",
+    "filename": "44-colorful-crab-landscape-green-blue-cat=landscape-style=abstract-theme=nature-color=green-color=blue-id=a044.jpg",
+    "title": "Colorful crab landscape green blue",
     "id": "a044",
     "view": "",
     "cat": [
@@ -1245,44 +867,33 @@
     ]
   },
   {
-    "src": "images/45-pink-sea-urchin-abstract-cat=marine-cat=nature-style=abstract-color=pink-color=green-id=a045.jpg",
-    "filename": "45-pink-sea-urchin-abstract-cat=marine-cat=nature-style=abstract-color=pink-color=green-id=a045.jpg",
-    "title": "Pink sea urchin abstract",
+    "src": "images/45-pink-sea-urchin-flower-abstract-cat=flower-cat=nature-theme=nature-color=pink-color=green-id=a045.jpg",
+    "filename": "45-pink-sea-urchin-flower-abstract-cat=flower-cat=nature-theme=nature-color=pink-color=green-id=a045.jpg",
+    "title": "Pink sea urchin flower abstract",
     "id": "a045",
     "view": "",
     "cat": [
-      "marine",
+      "flower",
       "nature"
     ],
-    "style": [
-      "abstract"
+    "style": [],
+    "theme": [
+      "nature"
     ],
-    "theme": [],
     "color": [
       "pink",
       "green"
     ]
   },
   {
-    "src": "images/45_1788397105647.jpg",
-    "filename": "45_1788397105647.jpg",
-    "title": "1788397105647",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/46-person-holding-cat-portrait-cat=person-cat=cat-style=figurative-theme=portrait-color=gray-color=black-id=a046.jpg",
-    "filename": "46-person-holding-cat-portrait-cat=person-cat=cat-style=figurative-theme=portrait-color=gray-color=black-id=a046.jpg",
-    "title": "Person holding cat portrait",
+    "src": "images/46-person-holding-bird-portrait-cat=person-cat=bird-style=figurative-theme=portrait-color=gray-color=black-id=a046.jpg",
+    "filename": "46-person-holding-bird-portrait-cat=person-cat=bird-style=figurative-theme=portrait-color=gray-color=black-id=a046.jpg",
+    "title": "Person holding bird portrait",
     "id": "a046",
     "view": "",
     "cat": [
       "person",
-      "cat"
+      "bird"
     ],
     "style": [
       "figurative"
@@ -1294,17 +905,6 @@
       "gray",
       "black"
     ]
-  },
-  {
-    "src": "images/46_1788397251176.jpg",
-    "filename": "46_1788397251176.jpg",
-    "title": "1788397251176",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
   },
   {
     "src": "images/47-tropical-banana-leaves-cat=plant-cat=nature-style=figurative-theme=tropical-color=green-id=a047.jpg",
@@ -1327,17 +927,6 @@
     ]
   },
   {
-    "src": "images/47_1788397254191.jpg",
-    "filename": "47_1788397254191.jpg",
-    "title": "1788397254191",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
     "src": "images/48-frog-on-leaf-cat=frog-cat=animal-style=figurative-theme=nature-color=green-id=a048.jpg",
     "filename": "48-frog-on-leaf-cat=frog-cat=animal-style=figurative-theme=nature-color=green-id=a048.jpg",
     "title": "Frog on leaf",
@@ -1356,83 +945,6 @@
     "color": [
       "green"
     ]
-  },
-  {
-    "src": "images/480714922_10236304453650488_3449191938089538038_n.jpg",
-    "filename": "480714922_10236304453650488_3449191938089538038_n.jpg",
-    "title": "10236304453650488_3449191938089538038_n",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/484001229_10236304318127100_1500831157352532965_n.jpg",
-    "filename": "484001229_10236304318127100_1500831157352532965_n.jpg",
-    "title": "10236304318127100_1500831157352532965_n",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/484037852_10236304454890519_8603372981981257654_n.jpg",
-    "filename": "484037852_10236304454890519_8603372981981257654_n.jpg",
-    "title": "10236304454890519_8603372981981257654_n",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/484103543_10236304296486559_4328887192101822655_n.jpg",
-    "filename": "484103543_10236304296486559_4328887192101822655_n.jpg",
-    "title": "10236304296486559_4328887192101822655_n",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/484244704_10236304452650463_6952403686600140741_n.jpg",
-    "filename": "484244704_10236304452650463_6952403686600140741_n.jpg",
-    "title": "10236304452650463_6952403686600140741_n",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/484247642_10236304457250578_977604405645168976_n.jpg",
-    "filename": "484247642_10236304457250578_977604405645168976_n.jpg",
-    "title": "10236304457250578_977604405645168976_n",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
-  },
-  {
-    "src": "images/485171345_10236304451810442_7359063068185896481_n.jpg",
-    "filename": "485171345_10236304451810442_7359063068185896481_n.jpg",
-    "title": "10236304451810442_7359063068185896481_n",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
   },
   {
     "src": "images/49-red-starfish-gold-background-cat=starfish-cat=marine-style=figurative-theme=coastal-color=red-color=gold-id=a049.jpg",
@@ -1517,9 +1029,9 @@
     ]
   },
   {
-    "src": "images/53-red-starfish-gold-background-cat=starfish-cat=marine-style=figurative-theme=coastal-color=red-color=gold-id=a049-view=alternate.jpg",
-    "filename": "53-red-starfish-gold-background-cat=starfish-cat=marine-style=figurative-theme=coastal-color=red-color=gold-id=a049-view=alternate.jpg",
-    "title": "Red starfish gold background",
+    "src": "images/53-red-starfish-art-gold-background-cat=starfish-cat=marine-style=figurative-theme=coastal-color=red-color=gold-id=a049-view=alternate.jpg",
+    "filename": "53-red-starfish-art-gold-background-cat=starfish-cat=marine-style=figurative-theme=coastal-color=red-color=gold-id=a049-view=alternate.jpg",
+    "title": "Red starfish art gold background",
     "id": "a049",
     "view": "alternate",
     "cat": [
@@ -1619,16 +1131,5 @@
       "yellow",
       "id=a057"
     ]
-  },
-  {
-    "src": "images/578965523_10239640379726555_3898658486442871289_n.jpg",
-    "filename": "578965523_10239640379726555_3898658486442871289_n.jpg",
-    "title": "10239640379726555_3898658486442871289_n",
-    "id": "",
-    "view": "",
-    "cat": [],
-    "style": [],
-    "theme": [],
-    "color": []
   }
 ]
