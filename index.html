@@ -247,6 +247,10 @@
       margin-bottom: 0.75rem;
     }
 
+    #lightboxId, #lightBoxTitle {
+      display: none;
+    }
+
     .lightbox-tags {
       display: flex;
       flex-wrap: wrap;
@@ -440,6 +444,8 @@
       lightboxImg.alt = item.title;
       lightboxTitle.textContent = item.title;
       lightboxId.textContent = item.id ? `Catalog ID: ${item.id}` : '';
+      lightboxId.hide();
+      lightBoxTitle.hide();
 
       const tags = [
         ...(item.style || []).map(s => ({ text: s, type: 'style' })),
