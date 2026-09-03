@@ -1,7 +1,19 @@
 [
   {
+    "src": "images/01-woman-profile-red-dress-vintage-cat=portrait-cat=woman-style=figurative-color=red-id=a001.jpg",
+    "title": "01-woman-profile-red-dress-vintage-cat=portrait-cat=woman-style=figurative-color=red-id=a001",
+    "category": "General",
+    "year": ""
+  },
+  {
     "src": "images/01-woman-profile-red-dress-vintage-cat=portrait-cat=woman-style=figurative-color=red-id=a001.jpg.jpg",
     "title": "01-woman-profile-red-dress-vintage-cat=portrait-cat=woman-style=figurative-color=red-id=a001.jpg",
+    "category": "General",
+    "year": ""
+  },
+  {
+    "src": "images/02-colorful-flowers-floral-garden-cat=flower-cat=floral-style=abstract-theme=nature-color=yellow-color=pink-color=blue-id=a002.jpg",
+    "title": "02-colorful-flowers-floral-garden-cat=flower-cat=floral-style=abstract-theme=nature-color=yellow-color=pink-color=blue-id=a002",
     "category": "General",
     "year": ""
   },
@@ -12,14 +24,32 @@
     "year": ""
   },
   {
+    "src": "images/03-white-house-porch-cat=house-cat=architecture-style=landscape-theme=southern-color=white-id=a003.jpg",
+    "title": "03-white-house-porch-cat=house-cat=architecture-style=landscape-theme=southern-color=white-id=a003",
+    "category": "General",
+    "year": ""
+  },
+  {
     "src": "images/03-white-house-porch-cat=house-cat=architecture-style=landscape-theme=southern-color=white-id=a003.jpg.jpg",
     "title": "03-white-house-porch-cat=house-cat=architecture-style=landscape-theme=southern-color=white-id=a003.jpg",
     "category": "General",
     "year": ""
   },
   {
+    "src": "images/04-white-bird-pink-flowers-blue-background-cat=bird-cat=flower-style=figurative-theme=nature-color=white-color=pink-color=blue-id=a004.jpg",
+    "title": "04-white-bird-pink-flowers-blue-background-cat=bird-cat=flower-style=figurative-theme=nature-color=white-color=pink-color=blue-id=a004",
+    "category": "General",
+    "year": ""
+  },
+  {
     "src": "images/04-white-bird-pink-flowers-blue-background-cat=bird-cat=flower-style=figurative-theme=nature-color=white-color=pink-color=blue-id=a004.jpg.jpg",
     "title": "04-white-bird-pink-flowers-blue-background-cat=bird-cat=flower-style=figurative-theme=nature-color=white-color=pink-color=blue-id=a004.jpg",
+    "category": "General",
+    "year": ""
+  },
+  {
+    "src": "images/05-colorful-flower-bird-cracked-texture-cat=flower-cat=bird-style=abstract-theme=nature-color=multicolor-id=a005.jpg",
+    "title": "05-colorful-flower-bird-cracked-texture-cat=flower-cat=bird-style=abstract-theme=nature-color=multicolor-id=a005",
     "category": "General",
     "year": ""
   },
@@ -36,8 +66,20 @@
     "year": ""
   },
   {
+    "src": "images/07-yellow-trees-mountains-landscape-cat=landscape-cat=tree-style=landscape-theme=nature-color=yellow-color=green-id=a007.jpg",
+    "title": "07-yellow-trees-mountains-landscape-cat=landscape-cat=tree-style=landscape-theme=nature-color=yellow-color=green-id=a007",
+    "category": "General",
+    "year": ""
+  },
+  {
     "src": "images/07-yellow-trees-mountains-landscape-cat=landscape-cat=tree-style=landscape-theme=nature-color=yellow-color=green-id=a007.jpg.jpg",
     "title": "07-yellow-trees-mountains-landscape-cat=landscape-cat=tree-style=landscape-theme=nature-color=yellow-color=green-id=a007.jpg",
+    "category": "General",
+    "year": ""
+  },
+  {
+    "src": "images/08-red-building-towers-architectural-sketch-cat=architecture-cat=building-style=sketch-theme=urban-color=red-id=a008.jpg",
+    "title": "08-red-building-towers-architectural-sketch-cat=architecture-cat=building-style=sketch-theme=urban-color=red-id=a008",
     "category": "General",
     "year": ""
   },
@@ -50,6 +92,12 @@
   {
     "src": "images/09-woman-seated-teal-dress-cat=woman-cat=figure-style=figurative-color=teal-color=red-id=a009.jpg",
     "title": "09-woman-seated-teal-dress-cat=woman-cat=figure-style=figurative-color=teal-color=red-id=a009",
+    "category": "General",
+    "year": ""
+  },
+  {
+    "src": "images/10-red-bird-window-still-life-cat=bird-cat=still-life-style=figurative-theme=nature-color=red-id=a010.jpg",
+    "title": "10-red-bird-window-still-life-cat=bird-cat=still-life-style=figurative-theme=nature-color=red-id=a010",
     "category": "General",
     "year": ""
   },
@@ -90,6 +138,12 @@
     "year": ""
   },
   {
+    "src": "images/16-gas-pumps-mountains-black-white-cat=architecture-cat=landscape-style=figurative-theme=urban-color=black-color=white-id=a016.jpg",
+    "title": "16-gas-pumps-mountains-black-white-cat=architecture-cat=landscape-style=figurative-theme=urban-color=black-color=white-id=a016",
+    "category": "General",
+    "year": ""
+  },
+  {
     "src": "images/16-gas-pumps-mountains-black-white-cat=architecture-cat=landscape-style=figurative-theme=urban-color=black-color=white-id=a016.jpg.jpg",
     "title": "16-gas-pumps-mountains-black-white-cat=architecture-cat=landscape-style=figurative-theme=urban-color=black-color=white-id=a016.jpg",
     "category": "General",
@@ -104,6 +158,12 @@
   {
     "src": "images/18-dog-silhouette-boy-sunset-cat=dog-cat=animal-style=landscape-theme=sunset-color=yellow-color=orange-id=a018.jpg",
     "title": "18-dog-silhouette-boy-sunset-cat=dog-cat=animal-style=landscape-theme=sunset-color=yellow-color=orange-id=a018",
+    "category": "General",
+    "year": ""
+  },
+  {
+    "src": "images/19-dragonfly-purple-blue-cat=dragonfly-cat=insect-style=abstract-theme=nature-color=purple-color=blue-id=a019.jpg",
+    "title": "19-dragonfly-purple-blue-cat=dragonfly-cat=insect-style=abstract-theme=nature-color=purple-color=blue-id=a019",
     "category": "General",
     "year": ""
   },
@@ -126,14 +186,32 @@
     "year": ""
   },
   {
+    "src": "images/22-flamingo-starfish-shells-turquoise-gray-cat=flamingo-cat=animal-cat=tropical-style=figurative-theme=coastal-color=turquoise-color=gray-id=a022.jpg",
+    "title": "22-flamingo-starfish-shells-turquoise-gray-cat=flamingo-cat=animal-cat=tropical-style=figurative-theme=coastal-color=turquoise-color=gray-id=a022",
+    "category": "General",
+    "year": ""
+  },
+  {
     "src": "images/22-flamingo-starfish-shells-turquoise-gray-cat=flamingo-cat=animal-cat=tropical-style=figurative-theme=coastal-color=turquoise-color=gray-id=a022.jpg.jpg",
     "title": "22-flamingo-starfish-shells-turquoise-gray-cat=flamingo-cat=animal-cat=tropical-style=figurative-theme=coastal-color=turquoise-color=gray-id=a022.jpg",
     "category": "General",
     "year": ""
   },
   {
+    "src": "images/23-woman-white-dress-interior-cat=woman-cat=figure-style=figurative-theme=interior-color=white-color=blue-id=a023.jpg",
+    "title": "23-woman-white-dress-interior-cat=woman-cat=figure-style=figurative-theme=interior-color=white-color=blue-id=a023",
+    "category": "General",
+    "year": ""
+  },
+  {
     "src": "images/23-woman-white-dress-interior-cat=woman-cat=figure-style=figurative-theme=interior-color=white-color=blue-id=a023.jpg.jpg",
     "title": "23-woman-white-dress-interior-cat=woman-cat=figure-style=figurative-theme=interior-color=white-color=blue-id=a023.jpg",
+    "category": "General",
+    "year": ""
+  },
+  {
+    "src": "images/24-colorful-hillside-village-cat=landscape-cat=architecture-style=landscape-theme=village-color=multicolor-id=a024.jpg",
+    "title": "24-colorful-hillside-village-cat=landscape-cat=architecture-style=landscape-theme=village-color=multicolor-id=a024",
     "category": "General",
     "year": ""
   },
