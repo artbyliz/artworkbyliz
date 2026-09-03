@@ -3,15 +3,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light dark" />
   <title>Artwork by Liz</title>
   <style>
     :root {
+      /* Light Mode Palette */
       --bg: #fafafa;
       --card-bg: #ffffff;
       --text: #1a1a1a;
       --muted: #666666;
       --border: #e2e2e2;
+      --chip-bg: #f0f0f0;
+      --chip-hover: #e0e0e0;
+      --dialog-bg: #ffffff;
       --radius: 8px;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      :root {
+        /* Dark Mode Palette */
+        --bg: #121212;
+        --card-bg: #1e1e1e;
+        --text: #f0f0f0;
+        --muted: #a0a0a0;
+        --border: #333333;
+        --chip-bg: #2a2a2a;
+        --chip-hover: #3a3a3a;
+        --dialog-bg: #1c1c1c;
+      }
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -287,6 +306,74 @@
       display: flex;
       justify-content: center;
       padding: 50px;
+    }
+
+    /* Lazily Supporting light-dark modes */
+    /* Update Form Controls */
+    .search-input {
+      background-color: var(--card-bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+      /* ... keep existing sizing/layout ... */
+    }
+    
+    .filter-select {
+      background-color: var(--card-bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+      /* ... keep existing sizing/layout ... */
+    }
+    
+    /* Update Color Chips */
+    .color-chip {
+      background-color: var(--chip-bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    
+    .color-chip:hover, 
+    .color-chip.active {
+      background-color: var(--text);
+      color: var(--bg);
+      border-color: var(--text);
+    }
+    
+    /* Update Typography & Separators */
+    header h1 {
+      color: var(--text);
+    }
+    
+    .artist-eyebrow, 
+    .gallery-subtitle {
+      color: var(--muted);
+    }
+    
+    footer {
+      border-top: 1px solid var(--border);
+    }
+    
+    footer p {
+      color: var(--muted);
+    }
+    
+    /* Update Lightbox Dialog */
+    dialog {
+      background-color: var(--dialog-bg);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    
+    .meta-tag {
+      background-color: var(--chip-bg);
+      color: var(--text);
+    }
+    
+    .meta-tag:hover {
+      background-color: var(--chip-hover);
+    }
+    
+    .close-btn {
+      color: var(--muted);
     }
   </style>
 </head>
