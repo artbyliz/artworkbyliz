@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - 'images/**'
-  workflow_dispatch: # Allows manual trigger from the Actions tab
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -23,16 +23,51 @@ jobs:
             const path = 'images';
             if (!fs.existsSync(path)) fs.mkdirSync(path);
             const files = fs.readdirSync(path).filter(f => /\.(jpe?g|png|webp)$/i.test(f));
+
             const list = files.map(f => {
-              const name = f.replace(/\.[^/.]+$/, '');
-              const [title, category, year] = name.split('_');
-              return { 
-                src: 'images/' + f, 
-                title: (title || name).trim(), 
-                category: (category || 'General').trim(), 
-                year: (year || '').trim() 
+              const base = f.replace(/\.[^/.]+$/, '');
+              const parts = base.split('-');
+
+              const meta = {
+                src: 'images/' + f,
+                filename: f,
+                title: '',
+                id: '',
+                view: '',
+                cat: [],
+                style: [],
+                theme: [],
+                color: []
               };
+
+              const titleWords = [];
+
+              parts.forEach(part => {
+                if (part.includes('=')) {
+                  const [key, ...valParts] = part.split('=');
+                  const val = valParts.join('=').trim();
+                  const k = key.trim().toLowerCase();
+
+                  if (Array.isArray(meta[k])) {
+                    if (!meta[k].includes(val)) meta[k].push(val);
+                  } else if (k in meta) {
+                    meta[k] = val;
+                  }
+                } else {
+                  // Non key=value parts form the title
+                  titleWords.push(part.trim());
+                }
+              });
+
+              // Clean up title: remove leading numbers/dashes and capitalize
+              let cleanedTitle = titleWords.join(' ').replace(/^(\d+[\s_-]*)/, '');
+              meta.title = cleanedTitle
+                ? cleanedTitle.charAt(0).toUpperCase() + cleanedTitle.slice(1)
+                : (meta.id || base);
+
+              return meta;
             });
+
             fs.writeFileSync('images.json', JSON.stringify(list, null, 2));
           "
 
@@ -41,5 +76,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add images.json
-          git commit -m "Auto-update images.json [skip ci]" || exit 0
+          git commit -m "Auto-update images.json with tag metadata [skip ci]" || exit 0
           git push
