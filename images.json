@@ -1112,10 +1112,10 @@
     ]
   },
   {
-    "src": "images/57-sunflowers-in-vase-cat=sunflower-cat=floral-style=figurative-theme=nature-color=yellow-color=id=a057.jpg",
-    "filename": "57-sunflowers-in-vase-cat=sunflower-cat=floral-style=figurative-theme=nature-color=yellow-color=id=a057.jpg",
+    "src": "images/57-sunflowers-in-vase-cat=sunflower-cat=floral-style=figurative-theme=nature-color=yellow-id=a057.jpg",
+    "filename": "57-sunflowers-in-vase-cat=sunflower-cat=floral-style=figurative-theme=nature-color=yellow-id=a057.jpg",
     "title": "Sunflowers in vase",
-    "id": "",
+    "id": "a057",
     "view": "",
     "cat": [
       "sunflower",
@@ -1128,8 +1128,7 @@
       "nature"
     ],
     "color": [
-      "yellow",
-      "id=a057"
+      "yellow"
     ]
   }
 ]
