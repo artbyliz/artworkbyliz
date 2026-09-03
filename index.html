@@ -450,8 +450,6 @@
       lightboxImg.alt = item.title;
       lightboxTitle.textContent = item.title;
       lightboxId.textContent = item.id ? `Catalog ID: ${item.id}` : '';
-      lightboxId.hide();
-      lightBoxTitle.hide();
 
       const tags = [
         ...(item.style || []).map(s => ({ text: s, type: 'style' })),
